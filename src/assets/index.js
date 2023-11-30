@@ -20,11 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import express from "./tech/express.png";
+import northcoders from "./company/northcoders.jpg";
+import deloitte from "./company/deloitte.png";
+import makerversity from "./company/makerversity.jpg";
+import chevalier from "./company/chevalier.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,11 +52,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  northcoders,
+  deloitte,
+  makerversity,
+  chevalier,
   carrent,
   jobit,
   tripguide,
+  express,
 };

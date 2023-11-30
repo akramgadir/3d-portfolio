@@ -8,6 +8,7 @@ const StarWrapper = (Component, idName) =>
     return (
       <motion.section
         variants={staggerContainer()}
+        //makes all components that are wrapped slide into view as we scroll to them
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}

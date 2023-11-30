@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  makerversity,
+  deloitte,
   carrent,
   jobit,
   tripguide,
   threejs,
+  chevalier,
+  northcoders,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +47,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Electronic Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Consultant",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "3D Designer",
     icon: creator,
   },
 ];
@@ -72,18 +73,18 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,9 +94,13 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "express",
+    icon: express,
   },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -104,62 +109,59 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Electronics Engineer",
+    company_name: "Makerversity",
+    icon: makerversity,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2019 - February 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Hardware and software design of the world’s most portable electric scooter.",
+      "PCB design, microcontroller engineering, electronics circuit design, sensors, mechatronics, motor control, reverse engineering, Arduino prototyping.",
+      "Worked directly with the CEO in a team of four engineers to release our first product.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "R&D Automotive Electronics Engineer",
+    company_name: "Chevalier Technologies Ltd.",
+    icon: chevalier,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2020 - Aug 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed new products in the Advanced Technology Department.",
+      "Designed high power and low power circuits and PCBs with Altium Designer.",
+      "Developed automotive electronics products with Tesla, SONY, McLaren, Aston Martin, BMW, and other international companies.",
+      "Safety critical systems, power actuators and control electronics systems development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "R&D Software Analyst",
+    company_name: "Deloitte",
+    icon: deloitte,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2021 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Lead technical interviews with client technical experts from billion dollar tech companies to discuss their R&D projects and document them for technical and non-technical audiences.",
+      "Researched and analysed technical documentation and data from clients.",
+      "Project management of up to 10 clients at a time to deliver R&D claims timely and within budget.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Trained other analysts and consultants within the team on our technologies.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Trainee Software Engineer",
+    company_name: "Northcoders",
+    icon: northcoders,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2023 - Nov 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
