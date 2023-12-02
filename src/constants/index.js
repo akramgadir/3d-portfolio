@@ -179,7 +179,7 @@ const testimonials = [
     name: "Keenia Dyer-Williams",
     designation: "Social Media and Content Marketer",
     company: "Makerversity",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/lego/3.jpg",
   },
   {
     testimonial:
@@ -187,7 +187,7 @@ const testimonials = [
     name: "Eric Salles",
     designation: "Consultant",
     company: "Deloitte",
-    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/lego/1.jpg",
   },
   {
     testimonial:
@@ -195,7 +195,7 @@ const testimonials = [
     name: "Ruxandra X Velicu",
     designation: "Consultant",
     company: "456 Enterprises",
-    // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/lego/7.jpg",
   },
 ];
 
