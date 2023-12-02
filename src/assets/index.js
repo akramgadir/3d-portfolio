@@ -25,11 +25,10 @@ import northcoders from "./company/northcoders.jpg";
 import deloitte from "./company/deloitte.png";
 import makerversity from "./company/makerversity.jpg";
 import chevalier from "./company/chevalier.jpeg";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import pokemongameimage from "./pokemongameimage.png";
 export {
   logo,
   backend,
@@ -60,4 +59,5 @@ export {
   jobit,
   tripguide,
   express,
+  pokemongameimage,
 };
