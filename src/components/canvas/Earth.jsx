@@ -26,6 +26,7 @@ const EarthCanvas = () => {
         position: [-4, 3, 6],
       }}
     >
+      {/* render this fallback if the earth canvas hasnt loaded yet */}
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
