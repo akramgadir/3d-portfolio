@@ -179,10 +179,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Intensive full-time bootcamp covering: Javascript, HTML, CSS, React, Node.js, test-driven development (TDD), pair programming, object-oriented programming, asynchronous programming, APIs and databases, Express, SQL, third-party data sets and APIs, cloud deployment, DOM.",
+      "Preceded by 3-month pre-course covering: Javascript, HTML, CSS, Object Oriented Programming, Advanced Challenges, Refactoring, Debugging",
     ],
   },
 ];
