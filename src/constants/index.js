@@ -25,6 +25,8 @@ import {
   northcoders,
   express,
   pokemongameimage,
+  ncnews,
+  onepercentbetter,
 } from "../assets";
 
 export const navLinks = [
@@ -206,6 +208,10 @@ const projects = [
       "Full stack web-based platform with articles which are divided topics. This also involved building an API for the purpose of accessing application data programmatically. The intention here is to mimic the building of a real world backend service (such as reddit) which should provide this information to the front end architecture. The database will be PSQL, and we interact with it using node-postgres",
     tags: [
       {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
         name: "javascript",
         color: "blue-text-gradient",
       },
@@ -222,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ncnews,
     source_code_link: "https://github.com/akramgadir/Akrams-nc-news-project",
   },
   {
@@ -263,7 +269,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: onepercentbetter,
     source_code_link: "https://github.com/akramgadir/fe-1-percent-better/",
   },
 ];

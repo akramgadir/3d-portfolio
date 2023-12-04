@@ -29,6 +29,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pokemongameimage from "./pokemongameimage.png";
+import ncnews from "./company/ncnews.png";
+import onepercentbetter from "./company/onepercentbetter.png";
+
 export {
   logo,
   backend,
@@ -60,4 +63,6 @@ export {
   tripguide,
   express,
   pokemongameimage,
+  ncnews,
+  onepercentbetter,
 };
