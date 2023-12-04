@@ -168,7 +168,7 @@ const experiences = [
       "Lead technical interviews with client technical experts from billion dollar tech companies to discuss their R&D projects and document them for technical and non-technical audiences.",
       "Researched and analysed technical documentation and data from clients.",
       "Project management of up to 10 clients at a time to deliver R&D claims timely and within budget.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
       "Trained other analysts and consultants within the team on our technologies.",
     ],
   },
