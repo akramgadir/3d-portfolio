@@ -13,10 +13,15 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+
+  const customBackground =
+  experience.title === "BEng Electronic Engineering" ? "#1d1856" : "#1d1836";
+
+
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: customBackground,
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
@@ -64,17 +69,17 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Experience.
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard
+              <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
-            />
+              />
           ))}
         </VerticalTimeline>
       </div>

@@ -27,6 +27,7 @@ import {
   pokemongameimage,
   ncnews,
   onepercentbetter,
+  uom,
 } from "../assets";
 
 export const navLinks = [
@@ -120,6 +121,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "BEng Electronic Engineering",
+    company_name: "The University of Manchester - 2:1 with honours",
+    icon: uom,
+    iconBg: "#383E56",
+    date: "Sept 2016 - June 2019",
+    points: [
+      "Wirelessly Controlled Robotic Arm and Data Glove (1st class) - Final Year Individual Project.",
+      "Created and programmed a fully working prototype of a hand (3D printed) controlled by a wearable electronic glove that I have also created",
+      "C++, ARM microcontrollers, IMUs, actuators, I2C and SPI, haptic feedback, control systems.",
+    ],
+  },
   {
     title: "Electronics Engineer",
     company_name: "Makerversity",

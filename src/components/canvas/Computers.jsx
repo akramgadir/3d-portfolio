@@ -64,7 +64,7 @@ const ComputersCanvas = () => {
         <OrbitControls
         autoRotate
         enableZoom={false}
-        autoRotateSpeed={0.3}
+        autoRotateSpeed={0.4}
         // limits rotation to one axis
         maxPolarAngle={Math.PI/2}
         minPolarAngle={Math.PI/2}

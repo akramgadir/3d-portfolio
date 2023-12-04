@@ -31,6 +31,7 @@ import tripguide from "./tripguide.png";
 import pokemongameimage from "./pokemongameimage.png";
 import ncnews from "./company/ncnews.png";
 import onepercentbetter from "./company/onepercentbetter.png";
+import uom from "./company/uom.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   pokemongameimage,
   ncnews,
   onepercentbetter,
+  uom,
 };
