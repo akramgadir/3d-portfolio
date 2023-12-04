@@ -207,7 +207,7 @@ const testimonials = [
       "I really enjoyed working with you so far. I appreciate the fact that you showed you availability to share your insights on **** with me and you were very patient and methodical in the steps you took. It was very easy for me to understand all the new features. I believe we collaborated well also on ****** to do a first review of the survey. I appreciated you were open to my insights and experiences I had and I believe this is just the beginning of an efficient collaboration.",
     name: "Ruxandra X Velicu",
     designation: "Consultant",
-    company: "456 Enterprises",
+    company: "Deloitte",
     image: "https://randomuser.me/api/portraits/lego/7.jpg",
   },
 ];
@@ -265,7 +265,7 @@ const projects = [
   {
     name: "Gym Performance Tracker (Mobile App)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive performance tracker mobile app that allows users to book add exercises, customise workouts, create accounts and sign in with authentication.",
     tags: [
       {
         name: "reactnative",
