@@ -28,6 +28,7 @@ import {
   ncnews,
   onepercentbetter,
   uom,
+  restaurantwebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -241,6 +242,31 @@ const projects = [
     ],
     image: ncnews,
     source_code_link: "https://github.com/akramgadir/Akrams-nc-news-project",
+  },
+  {
+    name: "Modern Restaurant Website",
+    description:
+      "A responsive restaurant website project to hone my Figma and CSS skills further.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: restaurantwebsite,
+    source_code_link: "https://github.com/akramgadir/restaurant-akram-website/",
   },
   {
     name: "Pokemon Memory Game",
