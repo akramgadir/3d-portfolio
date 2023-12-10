@@ -215,7 +215,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "News Website",
+    name: "API News Website (Full Stack)",
     description:
       "Full stack web-based platform with articles which are divided topics. This also involved building an API for the purpose of accessing application data programmatically. The intention here is to mimic the building of a real world backend service (such as reddit) which should provide this information to the front end architecture. The database will be PSQL, and we interact with it using node-postgres",
     tags: [
