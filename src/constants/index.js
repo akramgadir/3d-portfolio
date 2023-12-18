@@ -193,7 +193,7 @@ const testimonials = [
     name: "Keenia Dyer-Williams",
     designation: "Social Media and Content Marketer",
     company: "Makerversity",
-    image: "https://randomuser.me/api/portraits/lego/3.jpg",
+    image: "https://randomuser.me/api/portraits/lego/1.jpg",
   },
   {
     testimonial:
@@ -201,7 +201,7 @@ const testimonials = [
     name: "Eric Salles",
     designation: "Consultant",
     company: "Deloitte",
-    image: "https://randomuser.me/api/portraits/lego/1.jpg",
+    image: "https://randomuser.me/api/portraits/lego/7.jpg",
   },
   {
     testimonial:
@@ -209,7 +209,7 @@ const testimonials = [
     name: "Ruxandra X Velicu",
     designation: "Consultant",
     company: "Deloitte",
-    image: "https://randomuser.me/api/portraits/lego/7.jpg",
+    image: "https://randomuser.me/api/portraits/lego/3.jpg",
   },
 ];
 
@@ -242,6 +242,7 @@ const projects = [
     ],
     image: ncnews,
     source_code_link: "https://github.com/akramgadir/Akrams-nc-news-project",
+    project_link: "https://akramscript3.netlify.app/",
   },
   {
     name: "Modern Restaurant Website",
@@ -267,6 +268,7 @@ const projects = [
     ],
     image: restaurantwebsite,
     source_code_link: "https://github.com/akramgadir/restaurant-akram-website/",
+    project_link: "https://akramscript2.netlify.app/",
   },
   {
     name: "Pokemon Memory Game",
@@ -287,6 +289,7 @@ const projects = [
     ],
     image: pokemongameimage,
     source_code_link: "https://github.com/akramgadir/pokemon-memory-game.git",
+    project_link: "https://github.com/akramgadir/pokemon-memory-game.git",
   },
   {
     name: "Gym Performance Tracker (Mobile App)",
@@ -308,6 +311,7 @@ const projects = [
     ],
     image: onepercentbetter,
     source_code_link: "https://github.com/akramgadir/fe-1-percent-better/",
+    project_link: "https://github.com/akramgadir/fe-1-percent-better/",
   },
 ];
 

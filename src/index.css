@@ -217,3 +217,7 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.glowing-button:hover {
+  background: linear-gradient(90deg, #6a66e3, #6a6ee8);
+}
