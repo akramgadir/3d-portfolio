@@ -123,40 +123,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "BEng Electronic Engineering",
-    company_name: "The University of Manchester - 2:1 with honours",
-    icon: uom,
-    iconBg: "#383E56",
-    date: "Sept 2016 - June 2019",
-    points: [
-      "Wirelessly Controlled Robotic Arm and Data Glove (1st class) - Final Year Individual Project.",
-      "Created and programmed a fully working prototype of a hand (3D printed) controlled by a wearable electronic glove that I have also created",
-      "C++, ARM microcontrollers, IMUs, actuators, I2C and SPI, haptic feedback, control systems.",
-    ],
-  },
-  {
-    title: "Electronics Engineer",
-    company_name: "Makerversity",
-    icon: makerversity,
-    iconBg: "#383E56",
-    date: "Oct 2019 - February 2020",
-    points: [
-      "Hardware and software design of the world’s most portable electric scooter.",
-      "PCB design, microcontroller engineering, electronics circuit design, sensors, mechatronics, motor control, reverse engineering, Arduino prototyping.",
-      "Worked directly with the CEO in a team of four engineers to release our first product.",
-    ],
-  },
-  {
-    title: "R&D Automotive Electronics Engineer",
-    company_name: "Chevalier Technologies Ltd.",
-    icon: chevalier,
+    title: "Trainee Software Engineer",
+    company_name: "Northcoders",
+    icon: northcoders,
     iconBg: "#E6DEDD",
-    date: "June 2020 - Aug 2020",
+    date: "Feb 2023 - Nov 2023",
     points: [
-      "Designed and developed new products in the Advanced Technology Department.",
-      "Designed high power and low power circuits and PCBs with Altium Designer.",
-      "Developed automotive electronics products with Tesla, SONY, McLaren, Aston Martin, BMW, and other international companies.",
-      "Safety critical systems, power actuators and control electronics systems development.",
+      "Intensive full-time bootcamp covering: Javascript, HTML, CSS, React, Node.js, test-driven development (TDD), pair programming, object-oriented programming, asynchronous programming, APIs and databases, Express, SQL, third-party data sets and APIs, cloud deployment, DOM.",
+      "Preceded by 3-month pre-course covering: Javascript, HTML, CSS, Object Oriented Programming, Advanced Challenges, Refactoring, Debugging",
     ],
   },
   {
@@ -174,14 +148,40 @@ const experiences = [
     ],
   },
   {
-    title: "Trainee Software Engineer",
-    company_name: "Northcoders",
-    icon: northcoders,
+    title: "R&D Automotive Electronics Engineer",
+    company_name: "Chevalier Technologies Ltd.",
+    icon: chevalier,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 - Nov 2023",
+    date: "June 2020 - Aug 2020",
     points: [
-      "Intensive full-time bootcamp covering: Javascript, HTML, CSS, React, Node.js, test-driven development (TDD), pair programming, object-oriented programming, asynchronous programming, APIs and databases, Express, SQL, third-party data sets and APIs, cloud deployment, DOM.",
-      "Preceded by 3-month pre-course covering: Javascript, HTML, CSS, Object Oriented Programming, Advanced Challenges, Refactoring, Debugging",
+      "Designed and developed new products in the Advanced Technology Department.",
+      "Designed high power and low power circuits and PCBs with Altium Designer.",
+      "Developed automotive electronics products with Tesla, SONY, McLaren, Aston Martin, BMW, and other international companies.",
+      "Safety critical systems, power actuators and control electronics systems development.",
+    ],
+  },
+  {
+    title: "Electronics Engineer",
+    company_name: "Makerversity",
+    icon: makerversity,
+    iconBg: "#383E56",
+    date: "Oct 2019 - February 2020",
+    points: [
+      "Hardware and software design of the world’s most portable electric scooter.",
+      "PCB design, microcontroller engineering, electronics circuit design, sensors, mechatronics, motor control, reverse engineering, Arduino prototyping.",
+      "Worked directly with the CEO in a team of four engineers to release our first product.",
+    ],
+  },
+  {
+    title: "BEng Electronic Engineering",
+    company_name: "The University of Manchester - 2:1 with honours",
+    icon: uom,
+    iconBg: "#383E56",
+    date: "Sept 2016 - June 2019",
+    points: [
+      "Wirelessly Controlled Robotic Arm and Data Glove (1st class) - Final Year Individual Project.",
+      "Created and programmed a fully working prototype of a hand (3D printed) controlled by a wearable electronic glove that I have also created",
+      "C++, ARM microcontrollers, IMUs, actuators, I2C and SPI, haptic feedback, control systems.",
     ],
   },
 ];
