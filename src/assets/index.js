@@ -33,6 +33,7 @@ import ncnews from "./company/ncnews.png";
 import onepercentbetter from "./company/onepercentbetter.png";
 import uom from "./company/uom.png";
 import restaurantwebsite from "./restaurantwebsite.png";
+import pokemonwebsite from "./pokemonwebsite.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   onepercentbetter,
   uom,
   restaurantwebsite,
+  pokemonwebsite,
 };

@@ -29,6 +29,7 @@ import {
   onepercentbetter,
   uom,
   restaurantwebsite,
+  pokemonwebsite,
 } from "../assets";
 
 export const navLinks = [
@@ -271,9 +272,14 @@ const projects = [
     project_link: "https://akramscript2.netlify.app/",
   },
   {
-    name: "Pokemon Memory Game",
-    description: "DOM based web application featuring a memory matching game.",
+    name: "Pokemon Sandbox Website",
+    description:
+      "Custom frontend sandbox website (in progress) to test several React skills.",
     tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
       {
         name: "javascript",
         color: "blue-text-gradient",
@@ -287,9 +293,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pokemongameimage,
-    source_code_link: "https://github.com/akramgadir/pokemon-memory-game.git",
-    project_link: "https://github.com/akramgadir/pokemon-memory-game.git",
+    image: pokemonwebsite,
+    source_code_link: "https://github.com/akramgadir/pokemon-website",
+    project_link: "https://github.com/akramgadir/pokemon-website",
   },
   {
     name: "Gym Performance Tracker (Mobile App)",
@@ -312,6 +318,27 @@ const projects = [
     image: onepercentbetter,
     source_code_link: "https://github.com/akramgadir/fe-1-percent-better/",
     project_link: "https://github.com/akramgadir/fe-1-percent-better/",
+  },
+  {
+    name: "Pokemon Memory Game",
+    description: "DOM based web application featuring a memory matching game.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pokemongameimage,
+    source_code_link: "https://github.com/akramgadir/pokemon-memory-game.git",
+    project_link: "https://github.com/akramgadir/pokemon-memory-game.git",
   },
 ];
 
