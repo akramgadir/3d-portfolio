@@ -269,7 +269,7 @@ const projects = [
     ],
     image: restaurantwebsite,
     source_code_link: "https://github.com/akramgadir/restaurant-akram-website/",
-    project_link: "https://akramscript2.netlify.app/",
+    project_link: "https://github.com/akramgadir/restaurant-akram-website/",
   },
   {
     name: "Pokemon Sandbox Website",
@@ -295,7 +295,7 @@ const projects = [
     ],
     image: pokemonwebsite,
     source_code_link: "https://github.com/akramgadir/pokemon-website",
-    project_link: "https://github.com/akramgadir/pokemon-website",
+    project_link: "https://akramscript2.netlify.app/",
   },
   {
     name: "Gym Performance Tracker (Mobile App)",
