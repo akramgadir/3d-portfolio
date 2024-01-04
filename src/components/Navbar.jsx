@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(true)
 
 return (
-<nav className={`${styles.paddingX} w-full flex items-centre py-5 fixed top-0 z-20 bg-primary `}>
+<nav className={`${styles.paddingX} w-full flex items-centre py-2 fixed top-0 z-20 bg-primary `}>
 <div className='w-full flex justify-between items-centre max-w-7xl mx-auto'>
   <Link
     to='/'
@@ -20,13 +20,13 @@ return (
       window.scrollTo(0,0);
     }}
   >
-<img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
-<p className='text-white text-[18px] font-bold cursor-pointer flex'>
+<img src={logo} alt="logo" className='w-12 h-12 object-contain'/>
+<p className='text-white text-[18px] font-bold cursor-pointer flex items-center justify-between'>
   Akram Gadir&nbsp;
   {/* this span makes it appear in the same line */}
   <span className='sm:block hidden'> | Frontend Developer</span></p>
   </Link>
-  <ul className='list-none hidden sm:flex flex-row gap-10'>
+  <ul className='list-none hidden sm:flex flex-row gap-10 items-center justify-between'>
     {navLinks.map((Link)=>(
     <li
       key={Link.id}
