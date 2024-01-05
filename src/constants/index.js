@@ -128,7 +128,7 @@ const experiences = [
     company_name: "Northcoders",
     icon: northcoders,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 - Nov 2023",
+    date: "June 2023 - Nov 2023",
     points: [
       "Intensive full-time bootcamp covering: Javascript, HTML, CSS, React, Node.js, test-driven development (TDD), pair programming, object-oriented programming, asynchronous programming, APIs and databases, Express, SQL, third-party data sets and APIs, cloud deployment, DOM.",
       "Preceded by 3-month pre-course covering: Javascript, HTML, CSS, Object Oriented Programming, Advanced Challenges, Refactoring, Debugging",
