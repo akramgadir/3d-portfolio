@@ -221,3 +221,19 @@
 .glowing-button:hover {
   background: linear-gradient(90deg, #6a66e3, #6a6ee8);
 }
+
+@keyframes logo-spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.logo-hover-animation:hover {
+  animation: logo-spin 2s ease-in-out;
+}

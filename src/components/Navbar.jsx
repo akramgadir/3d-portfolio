@@ -20,7 +20,9 @@ return (
       window.scrollTo(0,0);
     }}
   >
-<img src={logo} alt="logo" className='w-12 h-12 object-contain'/>
+<a href="https://github.com/akramgadir" target="_blank" rel="noopener noreferrer">
+<img src={logo} alt="logo" className='w-12 h-12 object-contain logo-hover-animation'/>
+</a>
 <p className='text-white text-[18px] font-bold cursor-pointer flex items-center justify-between'>
   Akram Gadir&nbsp;
   {/* this span makes it appear in the same line */}
