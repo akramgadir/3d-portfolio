@@ -30,6 +30,7 @@ import {
   uom,
   restaurantwebsite,
   pokemonwebsite,
+  viewport,
 } from "../assets";
 
 export const navLinks = [
@@ -216,9 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "API News Website (Full Stack)",
+    name: "API News Website \n(Full Stack)",
     description:
-      "Full stack web-based platform with articles which are divided topics. This also involved building an API for the purpose of accessing application data programmatically. The intention here is to mimic the building of a real world backend service (such as reddit) which should provide this information to the front end architecture. The database will be PSQL, and we interact with it using node-postgres",
+      "Full stack web-based platform with articles which are divided topics. This involved building an API to access application data programmatically. This mimics the building of a real world backend service (such as reddit) which provides this information to the front end architecture. The database uses PSQL, and we interact with it using node-postgres",
     tags: [
       {
         name: "react",
@@ -263,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Figma",
+        name: "figma",
         color: "green-text-gradient",
       },
     ],
@@ -285,7 +286,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -328,7 +329,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -339,6 +340,30 @@ const projects = [
     image: pokemongameimage,
     source_code_link: "https://github.com/akramgadir/pokemon-memory-game.git",
     project_link: "https://github.com/akramgadir/pokemon-memory-game.git",
+  },
+  {
+    name: "TypeScript Flexbox Viewport",
+    description:
+      "TypeScript challenge to develop a responsive flexbox viewport that is adjusts to user entered values dynamically via an opening sidebar.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: viewport,
+    source_code_link:
+      "https://github.com/akramgadir/typescript-viewport-flexbox-sandbox",
+    project_link:
+      "https://github.com/akramgadir/typescript-viewport-flexbox-sandbox",
   },
 ];
 

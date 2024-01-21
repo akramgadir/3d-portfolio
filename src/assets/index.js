@@ -34,6 +34,7 @@ import onepercentbetter from "./company/onepercentbetter.png";
 import uom from "./company/uom.png";
 import restaurantwebsite from "./restaurantwebsite.png";
 import pokemonwebsite from "./pokemonwebsite.png";
+import viewport from "./viewport.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   uom,
   restaurantwebsite,
   pokemonwebsite,
+  viewport,
 };
