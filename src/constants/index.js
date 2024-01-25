@@ -91,6 +91,7 @@ const technologies = [
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
+
   // },
   {
     name: "Tailwind CSS",
