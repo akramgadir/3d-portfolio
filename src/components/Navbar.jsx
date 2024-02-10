@@ -10,11 +10,11 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(true)
 
 return (
-<nav className={`${styles.paddingX} w-full flex items-centre py-2 fixed top-0 z-20 bg-primary `}>
+<nav className={`${styles.paddingX} w-full flex items-center py-2 fixed top-0 z-20 bg-primary `}>
 <div className='w-full flex justify-between items-centre max-w-7xl mx-auto'>
   <Link
     to='/'
-    className='flex items-centre gap-2'
+    className='flex items-center gap-2'
     onClick={() => {
       setActive(""); //keeps track of where we are on the page currently
       window.scrollTo(0,0);
