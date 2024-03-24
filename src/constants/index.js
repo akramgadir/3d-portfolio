@@ -26,6 +26,7 @@ import {
   restaurantwebsite,
   pokemonwebsite,
   viewport,
+  itineris,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +116,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Web Developer",
+    company_name: "Itineris",
+    icon: itineris,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - present",
+    points: [
+      "Using JavaScript , HTML, Tailwind CSS, PHP, WordPress, Laravel, Trellis, Bedrock and Sage, integrating mobile-first design for responsive, accessible websites compliant with WCAG standards.",
+      "Collaborating closely with designers to align technical solutions with strategic digital objectives.",
+      "Testing and debugging for cross-browser compatibility adhering to best practices with type safety, focusing on custom Gutenberg blocks for dynamic content.",
+    ],
+  },
   {
     title: "Trainee Software Engineer",
     company_name: "Northcoders",

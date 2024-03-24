@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
 import northcoders from "./company/northcoders.jpg";
+import itineris from "./company/itineris.jpeg";
 import deloitte from "./company/deloitte.png";
 import makerversity from "./company/makerversity.jpg";
 import chevalier from "./company/chevalier.jpeg";
@@ -73,4 +74,5 @@ export {
   restaurantwebsite,
   pokemonwebsite,
   viewport,
+  itineris,
 };
