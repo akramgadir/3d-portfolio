@@ -21,6 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.png";
+import wordpress from "./tech/wordpress.png";
+import php from "./tech/php.png";
 import northcoders from "./company/northcoders.jpg";
 import itineris from "./company/itineris.jpeg";
 import deloitte from "./company/deloitte.png";
@@ -67,6 +69,8 @@ export {
   jobit,
   tripguide,
   express,
+  wordpress,
+  php,
   pokemongameimage,
   ncnews,
   onepercentbetter,

@@ -19,6 +19,8 @@ import {
   chevalier,
   northcoders,
   express,
+  wordpress,
+  php,
   pokemongameimage,
   ncnews,
   onepercentbetter,
@@ -93,13 +95,14 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "express",
-    icon: express,
+    name: "WordPress",
+    icon: wordpress,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "PHP",
+    icon: php,
+  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -108,11 +111,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "express",
+    icon: express,
+  },
 ];
 
 const experiences = [
