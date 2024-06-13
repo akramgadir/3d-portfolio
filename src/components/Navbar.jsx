@@ -26,7 +26,7 @@ return (
 <p className='text-white text-[18px] font-bold cursor-pointer flex items-center justify-between'>
   Akram Gadir&nbsp;
   {/* this span makes it appear in the same line */}
-  <span className='sm:block hidden'> | Frontend Developer</span></p>
+  <span className='sm:block hidden'> | Full-Stack Developer</span></p>
   </Link>
   <ul className='list-none hidden sm:flex flex-row gap-10 items-center justify-between'>
     {navLinks.map((Link)=>(
