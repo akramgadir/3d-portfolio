@@ -250,7 +250,7 @@ const projects = [
     ],
     image: ncnews,
     source_code_link: "https://github.com/akramgadir/Akrams-nc-news-project",
-    project_link: "https://akramscript3.netlify.app/",
+    project_link: "https://github.com/akramgadir/Akrams-nc-news-project/",
   },
   {
     name: "Modern Restaurant Website",
